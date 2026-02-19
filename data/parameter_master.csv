@@ -1,0 +1,66 @@
+index,name,description,code_name,data_type,units,category,calculated,default,reference,model_source,notes
+1,Application rate,,application_rate,float,optional,exposure,FALSE,,,BeeREX,
+2,Units of application rate,,units_of_application_rate,factor,,exposure,FALSE,,,BeeREX,
+3,Application method,,application_method,factor,,exposure,FALSE,,,BeeREX,
+4,log KOW,,log_kow,float,unitless,exposure,FALSE,,,BeeREX,
+5,KOC,,koc,float,unitless?,exposure,FALSE,,,BeeREX,
+6,Mass of tree vegetation,,mass_of_tree_vegetation,float,kg-wet weight,exposure,FALSE,,,BeeREX,
+7,Are empirical residues availale,,are_empirical_residues_availale,boolean,,exposure,FALSE,,,BeeREX,
+8,Empirical residue in pollen/bread (mg a.i./kg),,empirical_residue_in_pollen_bread,float,mg a.i./A,exposure,FALSE,,,BeeREX,
+9,Empirical residue in nectar (mg a.i./kg),,empirical_residue_in_nectar,float,mg a.i./A,exposure,FALSE,,,BeeREX,
+10,Empirical residue in jelly (mg a.i./kg),,empirical_residue_in_jelly,float,mg a.i./A,exposure,FALSE,,,BeeREX,
+11,Empirical residue in pollen/bread (ug a.i./mg),,empirical_residue_in_pollen_bread_ug,float,ug a.i./A,exposure,TRUE,,,BeeREX,
+12,Empirical residue in nectar (ug a.i./mg),,empirical_residue_in_nectar_ug,float,ug a.i./A,exposure,TRUE,,,BeeREX,
+13,Empirical residue in jelly (ug a.i./mg),,empirical_residue_in_jelly_ug,float,ug a.i./A,exposure,TRUE,,,BeeREX,
+14,Life Stage,,life_stage,string/factor,,species,FALSE,,,BeeREX,
+15,Caste or task,,caste_or_task,string/factor,,species,FALSE,,,BeeREX,
+16,Age,,age,factor,,species,FALSE,,,BeeREX,
+17,Jelly,,jelly,float,mg/day,species,FALSE,,,BeeREX,
+18,Nectar,,nectar,float,mg/day,species,FALSE,,,BeeREX,
+19,Pollen,,pollen,float,mg/day,species,FALSE,,,BeeREX,
+20,Total dose,,total_dose,float,ug a.i./bee,species,TRUE,,,BeeREX,
+21,Acute RQ,,acute_rq,float,unitless,species,TRUE,,,BeeREX,
+22,Chronic RQ,,chronic_rq,float,unitless,species,TRUE,,,BeeREX,
+23,Adult contact LD50,,adult_contact_ld50,float,ug a.i./bee,toxicity,FALSE,,,BeeREX,
+24,Adult oral LD50,,adult_oral_ld50,float,ug a.i./bee,toxicity,FALSE,,,BeeREX,
+25,Adult oral NOAEL,,adult_oral_noael,float,ug a.i./bee,toxicity,FALSE,,,BeeREX,
+26,Larval LD50,,larval_ld50,float,ug a.i./bee,toxicity,FALSE,,,BeeREX,
+27,Larval NOAEL,,larval_noael,float,ug a.i./bee,toxicity,FALSE,,,BeeREX,
+28,Foliar spray application EEC (mg a.i./kg),,foliar_spray_application_eec,float,mg a.i./kg,concentration,TRUE,,,BeeREX,
+29,Soil application EEC (mg a.i./kg),,soil_application_eec,float,mg a.i./kg,concentration,TRUE,,,BeeREX,
+30,Seed treatment EEC (mg a.i./kg),,seed_treatment_eec,float,mg a.i./kg,concentration,TRUE,,,BeeREX,
+31,Tree trunk EEC (mg a.i./kg),,tree_trunk_eec,float,mg a.i./kg,concentration,TRUE,,,BeeREX,
+32,Foliar spray application EEC (ug a.i./mg),,foliar_spray_application_eec_ug,float,ug a.i./mg,concentration,TRUE,,,BeeREX,
+33,Soil application EEC (ug a.i./mg),,soil_application_eec_ug,float,ug a.i./mg,concentration,TRUE,,,BeeREX,
+34,Seed treatment EEC (ug a.i./mg),,seed_treatment_eec_ug,float,ug a.i./mg,concentration,TRUE,,,BeeREX,
+35,Tree trunk EEC (ug a.i./mg),,tree_trunk_eec_ug,float,ug a.i./mg,concentration,TRUE,,,BeeREX,
+36,Acute contact (adults),,acute_contact_adults,float,?? unitless (assumed RQ),results,TRUE,,,BeeREX,
+37,Acute dietary (adults),,acute_dietary_adults,float,unitless,results,TRUE,,,BeeREX,
+38,Chronic dietary (adults),,chronic_dietary_adults,float,unitless,results,TRUE,,,BeeREX,
+39,Acute dietary (larvae),,acute_dietary_larvae,float,unitless,results,TRUE,,,BeeREX,
+40,Chronic dietary (larvae),,chronic_dietary_larvae,float,unitless,results,TRUE,,,BeeREX,
+41,?? ,; argument in foliarSprayToEEC(),fs_a,float,??,foliarSprayToEEC,FALSE,110,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+42,??,; argument in foliarSprayToEEC(),fs_b,float,??,foliarSprayToEEC,FALSE,98,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+43,??,; argument in soilApplicationToEEC(),sa_a,float,??,soilApplicationToEEC,FALSE,0.95,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+44,??,; argument in soilApplicationToEEC(),sa_b,float,??,soilApplicationToEEC,FALSE,2.05,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+45,??,; argument in soilApplicationToEEC(),sa_c,float,??,soilApplicationToEEC,FALSE,0.82,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+46,??,; argument in soilApplicationToEEC(),sa_d,float,??,soilApplicationToEEC,FALSE,0.0648,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+47,??,; argument in soilApplicationToEEC(),sa_e,float,??,soilApplicationToEEC,FALSE,0.2431,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+48,??,; argument in soilApplicationToEEC(),sa_f,float,??,soilApplicationToEEC,FALSE,0.5822,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+49,??,; argument in soilApplicationToEEC(),sa_g,float,??,soilApplicationToEEC,FALSE,1.5,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+50,??,; argument in soilApplicationToEEC(),sa_h,float,??,soilApplicationToEEC,FALSE,0.2,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+51,??,; argument in soilApplicationToEEC(),sa_i,float,??,soilApplicationToEEC,FALSE,1.5,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+52,??,; argument in soilApplicationToEEC(),sa_j,float,??,soilApplicationToEEC,FALSE,0.01,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+53,??,; argument in soilApplicationToEEC(),sa_k,float,??,soilApplicationToEEC,FALSE,0.5,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+54,??,; argument in soilApplicationToEEC(),sa_l,float,??,soilApplicationToEEC,FALSE,0.45,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+55,Return all EECs,"Specifies if all EEC values should be return, or just the specific application_method provided to the function; argument in EECs",eecs_all,boolean,,EECs,FALSE,TRUE,,R-BeeREX,
+56,Species dataset input,Choose the species you want to calculate total doses and RQs for from the list of available species; argument to totalDoseAndRQs(),species_in,string/factor,,totalDoseAndRQs,FALSE,"""Honey bee""",,R-BeeREX,
+57,"""life_stage"" input",; argument to totalDoseAndRQs(),life_stage_in,string/factor,,totalDoseAndRQs,FALSE,,,R-BeeREX,
+58,"""caste_or_task"" input",; argument to totalDoseAndRQs(),caste_or_task_in,string/factor,,totalDoseAndRQs,FALSE,,,R-BeeREX,
+59,"""age"" input",; argument to totalDoseAndRQs(),age_in,string/factor,,totalDoseAndRQs,FALSE,,,R-BeeREX,
+60,EEC values vector,A vector containing the EEC values calcualted from the EECs() function; argument in totalDoseAndRQs,eec_values,float/vector,,totalDoseAndRQs,TRUE,,EECs(),R-BeeREX,
+61,Return total doses and RQs with species data,"Do you want to return the output of the total doses and RQs along with the species data used, or just as the total dose and RQs; argument in totalDoseAndRQs",full_species_meta_out=TRUE,boolean,,totalDoseAndRQs,FALSE,TRUE,,R-BeeREX,
+62,??,; argument in acuteContact(),ac_a,float,??,acuteContact,FALSE,2.7,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+63,??,; argument in acuteContact(),ac_b,float,??,acuteContact,FALSE,2.4,??,BeeREX,"This is an example of a parameter that was in the equations in the BeeRex notebook, but wasn't named. "
+64,Acute RQs vector,A vector containing the calcualted acute RQs (associated with a given species data table); argument in acuteContact(),acute_rqs,vector,,acuteDietary,TRUE,,totalDoseAndRQs(),BeeREX,
+65,Chronic RQs vector,A vector containing the calcualted chronic RQs (associated with a given species data table); argument in chronicDietary(),chronic_rqs,vector,,chronicDietary,TRUE,,totalDoseAndRQs(),BeeREX,

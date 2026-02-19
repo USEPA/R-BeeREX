@@ -1,0 +1,19 @@
+life_stage,caste_or_task,age,jelly,nectar,pollen
+Larval,Worker,1,1.9,0,0
+Larval,Worker,2,9.4,0,0
+Larval,Worker,3,19,0,0
+Larval,Worker,4,0,60,1.8
+Larval,Worker,5,0,120,3.6
+Larval,Drone,6+,0,130,3.6
+Larval,Queen,1,1.9,0,0
+Larval,Queen,2,9.4,0,0
+Larval,Queen,3,23,0,0
+Larval,Queen,4+,141,0,0
+Adult,Worker (cell cleaning and capping),0-10,0,60,6.65
+Adult,"Worker (brood and queen tending, nurse bees)",6 to 17,0,140,9.6
+Adult,"Worker (comb building, cleaning and food handling)",11 to 18,0,60,1.7
+Adult,Worker (foraging for pollen),>18,0,43.5,0.041
+Adult,Worker (foraging for nectar),>18,0,292,0.041
+Adult,Worker (maintenance of hive in winter),0-90,0,29,2
+Adult,Drone,>10,0,235,0.0002
+Adult,Queen (laying 1500 eggs/day),Entire lifestage,525,0,0

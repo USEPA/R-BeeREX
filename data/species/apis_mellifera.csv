@@ -1,0 +1,4 @@
+life_stage,caste_or_task,age,jelly,nectar,pollen
+Larval,Worker,5,0,120,3.6
+Adult,"Worker (brood and queen tending, nurse bees)",6 to 17,0,140,9.6
+Adult,Worker (foraging for nectar),>18,0,292,0.041
