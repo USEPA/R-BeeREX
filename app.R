@@ -3,7 +3,7 @@
 ### ~~ N. Pollesch ~~ ###
 
 
-rsconnect::writeManifest()
+#rsconnect::writeManifest()
 
 
 RBeeREXVersion<-"0.2.2"
